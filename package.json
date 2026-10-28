@@ -1,0 +1,18 @@
+{
+  "name": "seruvo-e2e-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicação temporária para o teste E2E de dados do Seruvo (PostgreSQL, variáveis, volume).",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js --seruvo-e2e-data",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "pg": "8.13.1"
+  }
+}
